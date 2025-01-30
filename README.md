@@ -5,19 +5,19 @@ This project contains GitHub Actions workflows for managing a quotes repository.
 ## Project Structure
 
 - **.github/workflows/**: Contains the GitHub Actions workflows.
-  - **check-json-format.yml**: Validates the format of `quotes.json` on pull requests.
+  - **check-json-format.yml**: Validates the format of `Quotes.json` on pull requests.
   - **deploy-github-pages.yml**: Deploys the project to GitHub Pages upon merging to the main branch.
   
-- **quotes.json**: A JSON file containing an array of quotes, each with an associated author.
+- **Quotes.json**: A JSON file containing an array of quotes, each with an associated author.
 
 - **index.html**: The main HTML document for the GitHub Pages site, displaying a random quote.
 
-- **script.js**: JavaScript code that fetches and displays a random quote from `quotes.json` on page reload.
+- **script.js**: JavaScript code that fetches and displays a random quote from `Quotes.json` on page reload.
 
 ## Setup Instructions
 
 1. Clone the repository to your local machine.
-2. Ensure you have a valid `quotes.json` file in the root directory.
+2. Ensure you have a valid `Quotes.json` file in the root directory.
 3. Configure GitHub Actions in your repository settings to enable workflows.
 4. Create a pull request to validate the JSON format.
 5. Merge the pull request to deploy the site to GitHub Pages.
