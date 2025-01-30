@@ -1,0 +1,19 @@
+name: Check JSON Format
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  check-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate JSON
+        run: |
+          if ! jq empty quotes.json; then
+            echo "quotes.json is not valid JSON"
+            exit 1
+          fi
+          echo "quotes.json is valid JSON"
