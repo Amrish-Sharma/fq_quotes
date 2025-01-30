@@ -1,5 +1,5 @@
 function getRandomQuote() {
-    fetch('quotes.json')
+    fetch('Quotes.json')
         .then(response => response.json())
         .then(data => {
             const randomIndex = Math.floor(Math.random() * data.length);
