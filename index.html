@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        #quote-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            text-align: center;
+        }
+        blockquote {
+            font-size: 1.5em;
+            margin: 0;
+            color: #333;
+        }
+        cite {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <div id="quote-container">
-        <blockquote id="quote"></blockquote>
+        <blockquote id="quote">Loading...</blockquote>
         <cite id="author"></cite>
     </div>
 </body>
