@@ -1,23 +1,28 @@
 [
     {
       "quote": "Genius is one percent inspiration and ninety-nine percent perspiration",
-      "author": "Thomas Edison"
+      "author": "Thomas Edison",
+      "theme": "Success"
     },
     {
       "quote": "You can observe a lot just by watching",
-      "author": "Yogi Berra"
+      "author": "Yogi Berra",
+      "theme": "Wisdom"
     },
     {
       "quote": "A house divided against itself cannot stand",
-      "author": "Abraham Lincoln"
+      "author": "Abraham Lincoln",
+      "theme": "Unity"
     },
     {
       "quote": "Difficulties increase the nearer we get to the goal",
-      "author": "Johann Wolfgang von Goethe"
+      "author": "Johann Wolfgang von Goethe",
+      "theme": "Perseverance"
     },
     {
       "quote": "Fate is in your hands and no one elses",
-      "author": "Byron Pulsifer"
+      "author": "Byron Pulsifer",
+      "theme": "Personal Responsibility"
     },
     {
       "quote": "Be the chief but never the lord",
